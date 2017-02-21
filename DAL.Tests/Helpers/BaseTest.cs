@@ -5,11 +5,11 @@ namespace DAL.Tests.Helpers
 {
     public class BaseTest : IDisposable
     {
-        protected readonly IntroToEfContext Db;
+        protected readonly IntroToEFContexttt Db;
 
         public BaseTest()
         {
-            Db = new IntroToEfContext();
+            Db = new IntroToEFContexttt();
         }
 
         public void Dispose()
